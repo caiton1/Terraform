@@ -1,3 +1,3 @@
 # Terraform demo
 
-I am using this repository to play around with terraform.
+I am using this repository to play around with terraform and AWS.
