@@ -7,7 +7,7 @@ variable "environment"  {
 }
 
 resource "aws_instance" "ec2"   {
-    ami = "ami-032598fcc7e9d1c7a"
+    ami = "ami-00baaa26c63140022"
     instance_type = "t2.micro"
     count = var.environment == "prod" ? 1:0
 }
