@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 module "ec2module" {
-    srouce = "./ec2"
+    source = "./ec2"
     ec2name = "Name from module" # passing in variable 
 }
